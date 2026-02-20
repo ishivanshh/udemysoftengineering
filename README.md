@@ -29,7 +29,7 @@
 - symbol => let sym1 = symbol() , they are always different if given same value then also. 
 
 ## Non Primitive
-1. objects => they are non primitive but inside it they use strind, numbers and other which are primitive 
+1. objects => they are non primitive but inside it they use string, numbers and other which are primitive 
 
 `let obj = {
     fistname : "shivansh",
@@ -63,3 +63,46 @@ const greet = () => {}`
 - higher order function are those which in paramter we take functions 
 
 ## Javascript is truely prototype based language, its just have musk over object, class based behind the scene prototype is working.
+
+
+### Encapsulation:- stop direct access to data object or it is not accessble outsie the class declared inside and access inside class only. but u can access by using method.
+
+### polymorphism:- making the class responsible for its code as well as its own data, polymorphism can be achieved in that each class has its own function that (once called) behaves properly for any object.
+
+### static method :- can only access by class itself no other can access it,
+
+
+# WINDOW 
+
+- DOM : elemets...
+- BOM : screen , navigator, location...
+- Javascript : objects , arrays , functions , classes ...
+
+## DOM Manipulation 
+- get the element 
+- event listening
+
+# Asynchornous Javascript.
+
+- having a ability to pause somthing inlanguage. 
+
+## closuers : they are functions
+
+- a closure gives a function access to its outer scope. In JavaScript, closures are created every time a function is created, at function creation time.
+ 
+function init() {
+
+  var name = "Mozilla"; // name is a local variable created by init
+
+  function displayName() {
+
+    // displayName() is the inner function, that forms a closure
+
+    console.log(name); // use variable declared in the parent function
+  }
+
+  displayName();
+
+}
+
+init();
