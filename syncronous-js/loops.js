@@ -9,6 +9,7 @@ while(i <= 5) {
     sum = sum + i;
     i++;
 }
+
 // console.log("Sum using while loop: " + sum);
 
 //2. write a countdown from 10 to 1 using while loop
@@ -20,19 +21,19 @@ while (j > 0){
     countdown.push(j);
     j--;
 }
-// console.log(countdown);
+console.log(countdown);
 
 //3. ask user to input the tea which he likes untill he inputs stop dont stop and push in array
-
-// let teaCollection = [];
-// let teas;
-// do {
-//     teas = prompt("Enter the tea you like (type 'stop' to finish):");
-//     if( teas !== 'stop'){
-//         teaCollection.push(teas);
-//     }
-// } while (teas !== 'stop');
-
+/*
+let teaCollection = [];
+let teas;
+do {
+    teas = prompt("Enter the tea you like (type 'stop' to finish):");
+    if( teas !== 'stop'){
+        teaCollection.push(teas);
+    }
+} while (teas !== 'stop');
+*/
 // check this in browser console prompt is not available in nodejs
 
 //4. do while loop that adds numbers from 1 to 3 and stores the result in a variable
@@ -43,7 +44,8 @@ let total = 0;
 do{
     total = total + t; // 
     t++;
-} while(  t <= 3);
+} while(t <= 3);
+
 
 // 5. write a for loop to multiple in array [2,4,6 ] to 2 and store in new array
 
@@ -125,7 +127,7 @@ for (const teas of originalTeas) {
 }
 //console.log(sortedTeas);
 
-// 11. for-in loop to loop through an objects containing city populations , any city a populations , skip any city and store the rest in an object named 'lagreCitites'.
+// 11. for-in loop to loop through an objects containing city populations , any city a populations , skip any city and store the rest in an object named 'cityPopulations'.
 
 let worldCities = {
     "sydney" : 500000,
@@ -186,7 +188,7 @@ newIndiaCities.forEach(function(city) {
     updatesCites.push(city);
 });
 
-console.log(updatesCites);
+// console.log(updatesCites);
 
 // 15. use for-of loop to iterate throigh the array and stop when the length on the current tea name is greater than 10, store the teas iterate over in an array names "shortTreas"
 
