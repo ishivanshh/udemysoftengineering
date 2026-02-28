@@ -6,6 +6,7 @@ const Person1 = {
 };
 
 Person1.greet(); 
+
 // but as you tranfer to other variable, it will lost in memory,
 
 const greetFunctiom = Person1.greet;

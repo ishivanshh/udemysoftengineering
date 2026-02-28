@@ -8,7 +8,8 @@ let tomHaardware = {};
 /*
 console.log(`tom` , tomHaardware.__proto__);
 console.log(`computer `, computer.__proto__);
-console.log(`mac `, mac.__proto__);// these lines are called dunder
+console.log(`mac `, mac.__proto__);
+//___ => these lines are called dunder
 */
 
 let gcar = {

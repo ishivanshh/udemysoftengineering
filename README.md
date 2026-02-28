@@ -55,15 +55,20 @@ console.log(today.getDate());
 
 - these are 2 types , where we can divide the function.
 
-` function greet() {}
+` function greet() {} && 
 const greet = () => {}`
 
 - arrow function and normal function both as (this) command which is used to access window but arrow function does not have ability to make this function use but normal function can use. major difference
 
-- higher order function are those which in paramter we take functions 
+### higher order function are those which in paramter we take functions 
 
-## Javascript is truely prototype based language, its just have musk over object, class based behind the scene prototype is working.
+# Prototype : 2 types  - prototype based - class object based(class,object,constructor)
+1. __proto___ => it is used to access to get property of other. 
+### Javascript is truely prototype based language, its just have musk over object, class based behind the scene prototype is working.
 
+### class :- we have created one thing and then u can use it for other purpose.
+- form created with class , now you can use that same form to make multiple forsm of different names.
+- this and new keywords are important for creating and accessing class.
 
 ### Encapsulation:- stop direct access to data object or it is not accessble outsie the class declared inside and access inside class only. but u can access by using method.
 
@@ -82,9 +87,11 @@ const greet = () => {}`
 - get the element 
 - event listening
 
+## Event.target => to get the location of any element on the web.
+
 # Asynchornous Javascript.
 
-- having a ability to pause somthing inlanguage. 
+- having a ability to pause somthing in language and to maintain  
 
 ## closuers : they are functions
 

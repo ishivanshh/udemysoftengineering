@@ -1,4 +1,4 @@
-function Person(name,age){
+ function Person(name,age){
     this.name = name;
     this.age = age;
 }
@@ -169,7 +169,7 @@ let miniCal = new calculator()
 class Employee {
     #salary:
     
-    constructor(name,salary){
+    constructor (name,salary){
         if(salary<0){
             throw new Error("salary can not be in negative")
         }
